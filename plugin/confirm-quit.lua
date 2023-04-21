@@ -7,7 +7,8 @@ end
 
 local quit_cmds = {
 	"q",
-	"quit",
+	-- There's a bug on ! commands, so I'm leaving quit and quitall out for now
+	-- "quit",
 	"wq",
 	"x",
 	"exit",
@@ -15,7 +16,7 @@ local quit_cmds = {
 	"xit",
 	"qa",
 	"qall",
-	"quitall",
+	-- "quitall",
 	"wqa",
 	"wqall",
 	"xa",
